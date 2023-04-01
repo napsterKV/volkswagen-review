@@ -46,7 +46,7 @@ const GalleryBlock = () => {
     <div className={css.GalleryList}> 
     {Fotos.map(({ src }, index) => {
       return <div>
-        <img onClick = {()=>{setIndex(index)}} src={src}/>
+        <img alt="src" onClick = {()=>{setIndex(index)}} src={src}/>
       </div>
    })}
    </div>

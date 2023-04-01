@@ -53,7 +53,7 @@ export default function SimpleSlider() {
         {news.map((slide) => {
           return <div>
             <div className={css.ImgDescriptoin}>
-            <img src={slide.image} /> 
+            <img alt="src"src={slide.image} /> 
             <div className={css.titleDescription}>
               <h3 className={css.Description}>
               {slide.title}
