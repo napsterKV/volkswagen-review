@@ -1,0 +1,94 @@
+.mainBlock{
+  padding: 180px 0 0 ; 
+  display: flex;
+  margin: 0 auto;
+}
+.titleDescription{
+  
+  padding-right: 134px;
+  width: 50%;
+
+}
+.Title{
+  text-transform: uppercase;
+  font-family: Oswald;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 73px;
+
+    max-width: 636px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .Description{
+    font-family: Oswald;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 29px;
+      
+      max-width: 526px;
+      letter-spacing: 0.03em;
+      text-align: left;
+  }
+ /* links / rechts 312
+ zusammen - 
+    ganz 1920px
+  */
+  .BlockDescription{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 756px;
+    width: 50%;
+  }
+  .descriptionIndex{
+    position: relative;
+    border: 1px solid  #898989;
+    height: 177px;
+    width: 50%;
+  }
+  .descriptionIndex:nth-child(5){
+    margin-top: 40px;
+  }
+  .numberDescription{
+      font-family: Oswald;
+      font-size: 52px;
+      font-weight: 500;
+      color:  #DB3138;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      margin: 25px auto 0 auto;
+}
+.numberDescription::before{
+  content: '#';
+  font-size: 24px;
+}
+/* .cup{
+  background-image: url(../../img/cup1.jpg);
+  background-repeat: no-repeat;
+    border: 1px solid #fff;
+    left: 1168px;
+    top: 1220px;
+    
+  } */
+  .cup{
+    background-image: url(../../img/cup2.svg);
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    height: 45.4306640625px;
+    width: 37.26267623901367px;
+    top: 17%;
+    right: 15%;
+  }
+  /* position: relative; */
+.textDdescription{
+  font-family: Oswald;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  margin: 0 auto;  
+  }

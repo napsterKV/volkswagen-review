@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import MainBlock from './components/MainBlock/MainBlock';
+import TopBlock from './components/TopBlock/TopBlock';
+import MiddleBlock from './components/MiddleBlock/MiddleBlock';
 import './App.css';
+import GalleryBlock from './components/GalleryBlock/GalleryBlock';
+import "slick-carousel/slick/slick.css";
+import  "./slick-theme.css";
+import  "yet-another-react-lightbox/styles.css";
+ 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return <main>
+    <MainBlock></MainBlock>
+    <TopBlock></TopBlock>
+    <MiddleBlock></MiddleBlock>
+    <GalleryBlock></GalleryBlock>
+    <footer className='footer'>
+      <div className='container'>
+         2023 © 
     </div>
-  );
+    </footer> 
+  </main>
 }
+
 
 export default App;

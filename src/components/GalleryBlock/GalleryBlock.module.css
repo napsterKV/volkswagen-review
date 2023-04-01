@@ -1,0 +1,8 @@
+.GalleryList{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);  
+}
+.GalleryList img{
+  max-width: 100%;
+}
