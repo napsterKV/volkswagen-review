@@ -58,6 +58,5 @@ const GalleryBlock = () => {
     />
   </div>
 }
-{/*  */}
 
 export default GalleryBlock;
